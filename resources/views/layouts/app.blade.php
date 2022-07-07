@@ -6,7 +6,7 @@
 
         <title>Laravel DataTable</title>
 
-        <link rel="stylesheet" href="{{ mix('/css/app.css') }}">
+        @vite('resources/css/app.css')
     </head>
     <body class="bg-gray-100">
         <div class="container mx-auto px-4">
