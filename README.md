@@ -24,7 +24,7 @@ touch database/database.sqlite
 php artisan migrate --seed
 ````
 ````
-npm install && npm run prod
+npm install && npm run build
 ````
 ````
 php artisan serve
